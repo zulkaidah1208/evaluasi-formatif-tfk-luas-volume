@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluasi Formatif — Pilih Set Soal</title>
+<style>
+  :root {
+    --green-dark: #3f6b2f;
+    --green-mid: #5a8f3f;
+    --green-light: #eaf3e3;
+    --orange: #e08a2e;
+    --text: #2b2b2b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Poppins", Arial, sans-serif;
+    background: linear-gradient(180deg, #f3f7ee 0%, #e7f0dd 100%);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #ffffff;
+    border: 3px solid var(--green-dark);
+    border-radius: 20px;
+    max-width: 480px;
+    width: 100%;
+    padding: 36px 28px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(63, 107, 47, 0.15);
+  }
+  h1 {
+    font-size: 1.4rem;
+    color: var(--green-dark);
+    margin-bottom: 6px;
+  }
+  p.subtitle {
+    font-size: 0.92rem;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 26px;
+  }
+  .set-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 20px;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    border: 2px solid var(--green-mid);
+    background: var(--green-light);
+    color: var(--green-dark);
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+  }
+  .set-btn:hover {
+    background: var(--green-mid);
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+  .set-btn .arrow {
+    font-size: 1.2rem;
+  }
+  .note {
+    margin-top: 22px;
+    font-size: 0.8rem;
+    color: #777;
+    line-height: 1.4;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--orange);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="badge">EVALUASI FORMATIF</div>
+    <h1>TFK dan Aplikasinya pada Luas Daerah dan Volume</h1>
+    <p class="subtitle">Silakan pilih salah satu dari tiga set soal berikut. Anda akan diarahkan ke tautan pengerjaan pada tab baru.</p>
+
+    <!-- Ganti href di bawah ini dengan link Google Drive/Form masing-masing set -->
+    <a class="set-btn" href="https://drive.google.com/GANTI_LINK_SET_1" target="_blank" rel="noopener">
+      Set Soal 1 <span class="arrow">➜</span>
+    </a>
+    <a class="set-btn" href="https://drive.google.com/GANTI_LINK_SET_2" target="_blank" rel="noopener">
+      Set Soal 2 <span class="arrow">➜</span>
+    </a>
+    <a class="set-btn" href="https://drive.google.com/GANTI_LINK_SET_3" target="_blank" rel="noopener">
+      Set Soal 3 <span class="arrow">➜</span>
+    </a>
+
+    <p class="note">
+      Pastikan Anda hanya mengerjakan satu set soal. Setelah membuka tautan, ikuti instruksi pengerjaan yang tertera di dalamnya.
+    </p>
+  </div>
+
+</body>
+</html>
